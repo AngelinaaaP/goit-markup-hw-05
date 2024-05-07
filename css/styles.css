@@ -715,10 +715,6 @@ button {
     margin-bottom: 16px;
 }
 
-.modal-form {
-    margin-bottom: 8px;
-}
-
 .modal-form-user-input {
     margin-bottom: 8px;
 }
@@ -865,6 +861,9 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-button:hover {
+.modal-form-button:hover
+.modal-form-button:focus {
     background-color: #404bbf;
+    color: #ffffff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
