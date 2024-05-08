@@ -728,6 +728,10 @@ button {
     position: relative;
 }
 
+.modal-form-user-input {
+    margin-bottom: 8px;
+}
+
 .modal-form-input {
     font-family: "Roboto", sans-serif;
     font-style: normal;
